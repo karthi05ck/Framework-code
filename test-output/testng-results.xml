@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-22T19:38:03 IST" name="Default suite" finished-at="2023-02-22T19:38:13 IST" duration-ms="10458">
+    <groups>
+    </groups>
+    <test started-at="2023-02-22T19:38:03 IST" name="Default test" finished-at="2023-02-22T19:38:13 IST" duration-ms="10458">
+      <class name="com.qa.opencart.tests.PhoneClassTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.PhoneClassTest@3c77d488]" started-at="2023-02-22T19:38:03 IST" name="setup" finished-at="2023-02-22T19:38:06 IST" duration-ms="2731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="doPhoneClassSetup()[pri:0, instance:com.qa.opencart.tests.PhoneClassTest@3c77d488]" started-at="2023-02-22T19:38:06 IST" name="doPhoneClassSetup" finished-at="2023-02-22T19:38:11 IST" duration-ms="5825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPhoneClassSetup -->
+        <test-method signature="selectPhoneTest(java.lang.String)[pri:2, instance:com.qa.opencart.tests.PhoneClassTest@3c77d488]" started-at="2023-02-22T19:38:11 IST" name="selectPhoneTest" data-provider="selectPhone" finished-at="2023-02-22T19:38:12 IST" duration-ms="975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPhoneTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.PhoneClassTest@3c77d488]" started-at="2023-02-22T19:38:12 IST" name="tearDown" finished-at="2023-02-22T19:38:13 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.PhoneClassTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
